@@ -5,7 +5,7 @@ export const Card = ({ nombre, fecha, imagen }) => {
 
         <div className="col-3 pb-5">
             <div className="card cardStyle">
-                <img className="card-img-top" src={imagen} height="200px"/>
+                <img className="card-img-top" src={imagen} height="200px" alt=""/>
                 <div className="card-body">
                     <h5 className="card-title">{nombre}</h5>
                     <p className="card-text">{fecha}</p>
